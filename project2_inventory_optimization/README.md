@@ -28,6 +28,6 @@
 - Window Functions
 
 ## Key Findings
-- Several SKUs had inventory but no recorded sales.
-- Certain categories showed low turnover and high inventory value.
-- A small number of products accounted for a large share of idle stock.
+- Focus inventory investment on categories with higher turnover.
+- Monitor high-value SKUs more closely to minimize excess working capital.
+
