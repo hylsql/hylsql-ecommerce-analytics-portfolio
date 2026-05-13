@@ -1,6 +1,7 @@
-## Getting Started
+## Setup
 
 1. Create a PostgreSQL database.
 2. Run `schema.sql`.
-3. Import CSV files from the `sample_data/` folder.
-4. Run the SQL scripts in each project folder.
+3. Update file paths in `load_postgres.sql`.
+4. Run `load_postgres.sql`.
+5. Explore the SQL projects.
