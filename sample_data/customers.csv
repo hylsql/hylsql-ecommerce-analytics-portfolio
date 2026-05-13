@@ -1,0 +1,101 @@
+customer_id,customer_name,email,city,state,created_date
+1,Hannah Brown,hannah.brown1@example.com,St. George,UT,2025-05-06
+2,David Lee,david.lee2@example.com,Charlotte,NC,2025-12-13
+3,Eric Lewis,eric.lewis3@example.com,San Jose,CA,2025-08-05
+4,Alex Chai,alex.chai4@example.com,Los Angeles,CA,2025-04-30
+5,Olivia King,olivia.king5@example.com,Lehi,UT,2026-01-02
+6,Hannah Lewis,hannah.lewis6@example.com,Denver,CO,2025-08-18
+7,Grace Wilson,grace.wilson7@example.com,Lehi,UT,2025-12-24
+8,Brian Anderson,brian.anderson8@example.com,Miami,FL,2025-04-21
+9,Jenny Anderson,jenny.anderson9@example.com,Los Angeles,CA,2025-07-14
+10,Taylor Thomas,taylor.thomas10@example.com,Spokane,WA,2026-02-18
+11,Alex White,alex.white11@example.com,Las Vegas,NV,2025-07-13
+12,Jordan Lewis,jordan.lewis12@example.com,Orlando,FL,2025-10-23
+13,Sarah Johnson,sarah.johnson13@example.com,Lehi,UT,2026-01-31
+14,Kevin Johnson,kevin.johnson14@example.com,New York,NY,2025-07-14
+15,Linda White,linda.white15@example.com,Atlanta,GA,2025-03-25
+16,Jason Thomas,jason.thomas16@example.com,Buffalo,NY,2025-12-26
+17,Ethan Johnson,ethan.johnson17@example.com,Chicago,IL,2025-10-01
+18,Eric Davis,eric.davis18@example.com,Dallas,TX,2025-07-14
+19,Linda Lewis,linda.lewis19@example.com,Buffalo,NY,2026-01-29
+20,Jenny Smith,jenny.smith20@example.com,New York,NY,2026-02-17
+21,Rachel Moore,rachel.moore21@example.com,Miami,FL,2025-04-19
+22,Ethan Young,ethan.young22@example.com,Charlotte,NC,2025-04-19
+23,Hannah Harris,hannah.harris23@example.com,Boulder,CO,2025-03-15
+24,Linda Lee,linda.lee24@example.com,Buffalo,NY,2026-01-18
+25,Grace Jackson,grace.jackson25@example.com,Chicago,IL,2025-07-05
+26,David Lee,david.lee26@example.com,Reno,NV,2025-02-16
+27,Jenny Smith,jenny.smith27@example.com,Los Angeles,CA,2025-11-18
+28,Emily Jackson,emily.jackson28@example.com,Chicago,IL,2025-07-17
+29,Amanda King,amanda.king29@example.com,Mesa,AZ,2025-10-11
+30,Kyle Chai,kyle.chai30@example.com,Atlanta,GA,2025-12-16
+31,Nora Lewis,nora.lewis31@example.com,Orlando,FL,2025-02-27
+32,Kevin Jackson,kevin.jackson32@example.com,Dallas,TX,2025-01-02
+33,Eric Wilson,eric.wilson33@example.com,Las Vegas,NV,2025-09-17
+34,Ethan Brown,ethan.brown34@example.com,Atlanta,GA,2026-03-07
+35,Hannah Clark,hannah.clark35@example.com,Chicago,IL,2025-03-20
+36,Jason Garcia,jason.garcia36@example.com,Las Vegas,NV,2025-11-03
+37,Rachel Harris,rachel.harris37@example.com,Salt Lake City,UT,2025-07-05
+38,Nora Martinez,nora.martinez38@example.com,New York,NY,2025-05-04
+39,Nora Young,nora.young39@example.com,Los Angeles,CA,2026-01-10
+40,Daniel Johnson,daniel.johnson40@example.com,Las Vegas,NV,2025-03-07
+41,Nathan Harris,nathan.harris41@example.com,Las Vegas,NV,2025-05-16
+42,Olivia King,olivia.king42@example.com,Denver,CO,2025-10-04
+43,Jenny Miller,jenny.miller43@example.com,Charlotte,NC,2025-07-24
+44,Nathan Thomas,nathan.thomas44@example.com,Mesa,AZ,2025-03-03
+45,David Davis,david.davis45@example.com,San Diego,CA,2025-01-11
+46,Grace Lewis,grace.lewis46@example.com,New York,NY,2025-01-04
+47,Jordan Smith,jordan.smith47@example.com,New York,NY,2025-01-17
+48,Kyle Anderson,kyle.anderson48@example.com,San Jose,CA,2025-05-02
+49,Linda Harris,linda.harris49@example.com,New York,NY,2026-01-06
+50,Ethan Young,ethan.young50@example.com,Chicago,IL,2025-05-05
+51,Victor Harris,victor.harris51@example.com,Denver,CO,2025-02-18
+52,Taylor Jackson,taylor.jackson52@example.com,Spokane,WA,2025-07-30
+53,Sophia Smith,sophia.smith53@example.com,Atlanta,GA,2025-02-01
+54,Amanda Anderson,amanda.anderson54@example.com,Los Angeles,CA,2025-04-09
+55,Sarah Lewis,sarah.lewis55@example.com,Phoenix,AZ,2025-08-05
+56,Emily Wilson,emily.wilson56@example.com,Phoenix,AZ,2025-02-08
+57,Sophia Lewis,sophia.lewis57@example.com,Los Angeles,CA,2025-11-30
+58,Michael Chai,michael.chai58@example.com,Los Angeles,CA,2025-03-27
+59,Brian Harris,brian.harris59@example.com,Phoenix,AZ,2025-07-25
+60,Nora Smith,nora.smith60@example.com,Dallas,TX,2025-01-02
+61,Amanda Wilson,amanda.wilson61@example.com,Mesa,AZ,2025-08-05
+62,Lily Lewis,lily.lewis62@example.com,Atlanta,GA,2025-03-21
+63,Sarah Martinez,sarah.martinez63@example.com,New York,NY,2025-10-24
+64,Eric Lewis,eric.lewis64@example.com,St. George,UT,2025-01-30
+65,Alex Young,alex.young65@example.com,Phoenix,AZ,2025-01-30
+66,Olivia Johnson,olivia.johnson66@example.com,Austin,TX,2025-11-01
+67,Jordan Davis,jordan.davis67@example.com,Denver,CO,2025-10-19
+68,David Young,david.young68@example.com,Chicago,IL,2025-11-14
+69,Jordan Jackson,jordan.jackson69@example.com,Atlanta,GA,2025-05-14
+70,Sarah Anderson,sarah.anderson70@example.com,Buffalo,NY,2025-07-22
+71,Chris Martinez,chris.martinez71@example.com,Mesa,AZ,2026-01-20
+72,Ethan Johnson,ethan.johnson72@example.com,Provo,UT,2025-11-15
+73,Grace Brown,grace.brown73@example.com,San Jose,CA,2025-04-20
+74,Olivia Wilson,olivia.wilson74@example.com,Dallas,TX,2025-02-05
+75,Nora Davis,nora.davis75@example.com,Spokane,WA,2025-03-22
+76,Sophia Lewis,sophia.lewis76@example.com,Charlotte,NC,2025-11-10
+77,Victor Clark,victor.clark77@example.com,St. George,UT,2025-12-06
+78,Taylor Lee,taylor.lee78@example.com,Miami,FL,2025-02-24
+79,Eric Lewis,eric.lewis79@example.com,Dallas,TX,2025-05-25
+80,Ryan Miller,ryan.miller80@example.com,Charlotte,NC,2025-04-15
+81,Nathan Wilson,nathan.wilson81@example.com,Reno,NV,2025-05-09
+82,Nora Smith,nora.smith82@example.com,San Jose,CA,2025-08-05
+83,Angela Wilson,angela.wilson83@example.com,Salt Lake City,UT,2025-06-20
+84,Jenny Lee,jenny.lee84@example.com,Atlanta,GA,2025-03-24
+85,Eric White,eric.white85@example.com,Reno,NV,2025-10-15
+86,Mina Brown,mina.brown86@example.com,San Jose,CA,2025-03-18
+87,Michael Smith,michael.smith87@example.com,Seattle,WA,2025-08-09
+88,Chris Smith,chris.smith88@example.com,Orlando,FL,2026-02-12
+89,Kyle Smith,kyle.smith89@example.com,Seattle,WA,2025-12-16
+90,David Brown,david.brown90@example.com,Spokane,WA,2025-11-14
+91,Eric Lee,eric.lee91@example.com,New York,NY,2026-02-14
+92,Victor Garcia,victor.garcia92@example.com,Denver,CO,2025-04-02
+93,Eric Anderson,eric.anderson93@example.com,Denver,CO,2025-05-17
+94,Emily Brown,emily.brown94@example.com,Denver,CO,2025-08-29
+95,David Miller,david.miller95@example.com,Mesa,AZ,2025-06-06
+96,Angela Davis,angela.davis96@example.com,New York,NY,2025-12-04
+97,Sarah Moore,sarah.moore97@example.com,Spokane,WA,2025-02-05
+98,Jenny Wilson,jenny.wilson98@example.com,Spokane,WA,2025-12-14
+99,Angela Lewis,angela.lewis99@example.com,Seattle,WA,2025-03-01
+100,Nora Wilson,nora.wilson100@example.com,Houston,TX,2025-05-16

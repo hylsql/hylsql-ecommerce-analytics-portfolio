@@ -1,0 +1,301 @@
+order_id,customer_id,order_date,order_status,sales_channel
+1,90,2025-12-10,Delivered,eBay
+2,93,2025-11-19,Delivered,TikTok Shop
+3,57,2025-12-27,Delivered,Amazon
+4,80,2025-10-16,Cancelled,eBay
+5,34,2026-03-19,Delivered,Shopify
+6,70,2025-11-27,Delivered,Amazon
+7,95,2025-12-22,Delivered,eBay
+8,24,2026-02-27,Shipped,Walmart Marketplace
+9,52,2026-02-09,Processing,Shopify
+10,81,2026-03-05,Processing,Amazon
+11,20,2026-02-05,Delivered,TikTok Shop
+12,75,2026-03-18,Delivered,Walmart Marketplace
+13,57,2025-10-26,Delivered,eBay
+14,81,2026-04-02,Delivered,Walmart Marketplace
+15,4,2025-10-12,Delivered,TikTok Shop
+16,60,2025-12-13,Delivered,eBay
+17,74,2025-12-31,Delivered,eBay
+18,81,2026-03-15,Delivered,Shopify
+19,72,2026-01-02,Delivered,Shopify
+20,72,2025-12-23,Delivered,eBay
+21,69,2025-11-04,Delivered,Walmart Marketplace
+22,88,2026-01-03,Shipped,eBay
+23,98,2026-02-19,Shipped,Amazon
+24,46,2026-04-21,Shipped,Amazon
+25,4,2025-10-16,Delivered,Walmart Marketplace
+26,52,2026-01-15,Delivered,Shopify
+27,62,2025-11-27,Delivered,Shopify
+28,59,2025-12-27,Delivered,Amazon
+29,87,2026-03-01,Delivered,Walmart Marketplace
+30,10,2025-12-20,Delivered,eBay
+31,26,2025-11-14,Delivered,eBay
+32,81,2025-12-17,Shipped,TikTok Shop
+33,71,2026-04-21,Delivered,Shopify
+34,13,2026-02-20,Delivered,Walmart Marketplace
+35,40,2025-11-16,Delivered,Amazon
+36,97,2026-04-10,Delivered,Walmart Marketplace
+37,19,2026-01-20,Delivered,Shopify
+38,20,2026-02-18,Delivered,eBay
+39,86,2025-10-22,Delivered,eBay
+40,9,2025-12-28,Cancelled,Amazon
+41,43,2025-11-04,Delivered,Shopify
+42,56,2026-01-11,Delivered,Walmart Marketplace
+43,57,2025-12-29,Delivered,Walmart Marketplace
+44,73,2025-10-09,Delivered,eBay
+45,92,2026-01-22,Processing,Shopify
+46,29,2025-11-01,Delivered,Amazon
+47,88,2026-02-10,Delivered,TikTok Shop
+48,80,2026-04-03,Delivered,eBay
+49,19,2025-12-20,Cancelled,TikTok Shop
+50,58,2025-12-03,Delivered,Amazon
+51,60,2026-02-05,Delivered,TikTok Shop
+52,2,2025-10-28,Delivered,Walmart Marketplace
+53,47,2026-04-12,Delivered,Amazon
+54,93,2026-03-26,Shipped,Shopify
+55,57,2025-12-20,Delivered,Walmart Marketplace
+56,32,2025-12-11,Delivered,eBay
+57,37,2026-04-01,Delivered,Shopify
+58,18,2025-10-02,Delivered,eBay
+59,14,2025-12-25,Delivered,TikTok Shop
+60,32,2025-10-02,Delivered,TikTok Shop
+61,65,2026-03-30,Processing,TikTok Shop
+62,62,2025-11-09,Cancelled,Walmart Marketplace
+63,58,2026-02-13,Delivered,TikTok Shop
+64,45,2026-03-29,Delivered,Shopify
+65,85,2026-02-16,Processing,Amazon
+66,93,2026-02-17,Delivered,Walmart Marketplace
+67,99,2026-03-22,Delivered,TikTok Shop
+68,39,2026-01-05,Cancelled,Amazon
+69,27,2025-12-24,Delivered,Shopify
+70,31,2026-02-19,Returned,TikTok Shop
+71,3,2025-12-06,Delivered,eBay
+72,86,2025-10-13,Delivered,Shopify
+73,37,2025-10-05,Processing,eBay
+74,29,2025-12-16,Processing,Shopify
+75,22,2025-10-22,Delivered,Walmart Marketplace
+76,92,2026-04-29,Delivered,Walmart Marketplace
+77,79,2026-03-02,Returned,Walmart Marketplace
+78,82,2025-11-09,Delivered,Walmart Marketplace
+79,22,2026-03-25,Delivered,Walmart Marketplace
+80,80,2026-01-06,Delivered,TikTok Shop
+81,73,2025-11-21,Delivered,eBay
+82,20,2026-04-02,Delivered,Walmart Marketplace
+83,79,2025-10-12,Shipped,eBay
+84,54,2025-10-22,Cancelled,Shopify
+85,45,2026-01-30,Delivered,Shopify
+86,55,2026-01-08,Processing,Shopify
+87,26,2026-01-26,Delivered,Shopify
+88,66,2026-01-08,Shipped,Walmart Marketplace
+89,80,2025-10-14,Delivered,TikTok Shop
+90,35,2026-04-17,Delivered,eBay
+91,69,2025-12-11,Delivered,eBay
+92,32,2026-04-13,Delivered,Walmart Marketplace
+93,94,2025-10-24,Shipped,Walmart Marketplace
+94,21,2026-01-21,Delivered,Walmart Marketplace
+95,17,2026-03-01,Delivered,Amazon
+96,28,2026-03-10,Delivered,Amazon
+97,31,2026-02-04,Delivered,Walmart Marketplace
+98,2,2025-12-07,Delivered,Amazon
+99,40,2025-10-21,Delivered,eBay
+100,95,2026-03-18,Delivered,Amazon
+101,55,2025-12-09,Delivered,eBay
+102,47,2026-01-07,Delivered,Amazon
+103,87,2025-10-14,Delivered,Amazon
+104,89,2025-10-03,Delivered,TikTok Shop
+105,17,2025-11-30,Delivered,TikTok Shop
+106,88,2025-12-17,Delivered,eBay
+107,14,2026-04-24,Delivered,Amazon
+108,43,2025-11-01,Delivered,Shopify
+109,36,2025-12-11,Delivered,Walmart Marketplace
+110,68,2025-12-03,Delivered,eBay
+111,35,2026-02-14,Returned,Shopify
+112,25,2026-04-26,Delivered,Walmart Marketplace
+113,48,2026-03-30,Shipped,Walmart Marketplace
+114,76,2026-04-27,Delivered,Amazon
+115,12,2026-04-29,Delivered,TikTok Shop
+116,13,2026-01-31,Processing,eBay
+117,22,2026-01-05,Cancelled,Amazon
+118,44,2026-03-02,Delivered,eBay
+119,39,2025-11-30,Delivered,Shopify
+120,49,2026-01-03,Delivered,Amazon
+121,76,2025-11-28,Delivered,eBay
+122,34,2025-12-21,Delivered,Shopify
+123,36,2026-01-12,Shipped,Amazon
+124,78,2026-03-15,Delivered,Shopify
+125,36,2026-01-03,Delivered,Walmart Marketplace
+126,87,2025-11-22,Processing,TikTok Shop
+127,45,2026-01-26,Delivered,TikTok Shop
+128,88,2025-11-05,Processing,Shopify
+129,39,2025-11-13,Delivered,eBay
+130,82,2026-02-27,Shipped,eBay
+131,73,2026-01-26,Delivered,Amazon
+132,62,2026-01-07,Delivered,Shopify
+133,29,2026-04-05,Delivered,Amazon
+134,7,2026-03-19,Processing,Shopify
+135,90,2025-11-09,Processing,Amazon
+136,14,2026-02-08,Delivered,eBay
+137,12,2025-10-29,Processing,eBay
+138,6,2025-12-14,Processing,TikTok Shop
+139,80,2025-12-08,Delivered,Shopify
+140,49,2026-04-18,Shipped,TikTok Shop
+141,84,2025-12-20,Processing,Shopify
+142,79,2025-10-14,Shipped,Shopify
+143,31,2025-10-21,Delivered,Walmart Marketplace
+144,46,2026-03-12,Delivered,TikTok Shop
+145,56,2026-02-27,Delivered,Walmart Marketplace
+146,78,2026-03-29,Delivered,eBay
+147,7,2026-03-21,Delivered,Shopify
+148,88,2025-12-20,Delivered,eBay
+149,25,2025-12-15,Delivered,Walmart Marketplace
+150,60,2026-03-31,Delivered,Amazon
+151,21,2026-01-15,Delivered,eBay
+152,93,2025-12-12,Delivered,Shopify
+153,10,2026-04-10,Delivered,Amazon
+154,65,2025-10-28,Processing,TikTok Shop
+155,51,2026-04-22,Delivered,eBay
+156,96,2026-04-08,Delivered,TikTok Shop
+157,46,2025-11-02,Delivered,Amazon
+158,18,2026-03-23,Delivered,TikTok Shop
+159,20,2026-01-02,Delivered,Walmart Marketplace
+160,30,2025-10-11,Delivered,Amazon
+161,49,2025-11-27,Delivered,eBay
+162,53,2025-10-06,Delivered,Amazon
+163,22,2025-11-26,Shipped,Walmart Marketplace
+164,3,2025-11-21,Delivered,eBay
+165,62,2026-04-21,Delivered,Walmart Marketplace
+166,55,2026-02-22,Shipped,TikTok Shop
+167,58,2026-04-19,Delivered,Amazon
+168,11,2026-03-05,Cancelled,Shopify
+169,26,2026-03-18,Delivered,eBay
+170,95,2026-03-30,Delivered,Shopify
+171,97,2025-12-26,Processing,Walmart Marketplace
+172,37,2025-10-24,Processing,Walmart Marketplace
+173,26,2025-11-30,Delivered,Amazon
+174,98,2026-02-08,Delivered,TikTok Shop
+175,42,2026-01-01,Delivered,eBay
+176,88,2025-11-28,Cancelled,Shopify
+177,2,2025-11-15,Delivered,Walmart Marketplace
+178,43,2025-12-06,Delivered,TikTok Shop
+179,74,2026-01-12,Delivered,Shopify
+180,85,2025-12-04,Delivered,Shopify
+181,95,2025-12-12,Shipped,Walmart Marketplace
+182,90,2026-02-16,Shipped,Amazon
+183,89,2026-02-03,Delivered,Walmart Marketplace
+184,83,2026-01-08,Delivered,Walmart Marketplace
+185,35,2026-03-29,Delivered,eBay
+186,64,2026-01-04,Processing,Walmart Marketplace
+187,10,2026-02-17,Delivered,Walmart Marketplace
+188,40,2025-12-22,Shipped,Amazon
+189,56,2025-12-23,Delivered,Shopify
+190,90,2026-02-15,Delivered,Shopify
+191,20,2026-01-24,Delivered,TikTok Shop
+192,17,2025-11-15,Delivered,Shopify
+193,27,2026-03-17,Delivered,Walmart Marketplace
+194,85,2025-12-03,Shipped,eBay
+195,85,2025-11-10,Shipped,eBay
+196,77,2025-10-05,Delivered,eBay
+197,93,2025-12-23,Delivered,Walmart Marketplace
+198,73,2025-11-08,Delivered,TikTok Shop
+199,7,2026-02-18,Delivered,Walmart Marketplace
+200,35,2026-04-17,Delivered,Walmart Marketplace
+201,37,2025-10-04,Processing,TikTok Shop
+202,67,2026-04-11,Delivered,TikTok Shop
+203,66,2026-03-31,Delivered,Shopify
+204,4,2026-02-20,Delivered,TikTok Shop
+205,17,2025-11-22,Delivered,Amazon
+206,79,2026-03-07,Shipped,TikTok Shop
+207,2,2025-12-09,Delivered,Walmart Marketplace
+208,58,2026-01-25,Delivered,Shopify
+209,42,2026-01-24,Delivered,Shopify
+210,85,2025-11-08,Delivered,Amazon
+211,70,2026-04-25,Shipped,Shopify
+212,5,2026-03-20,Shipped,eBay
+213,49,2026-04-28,Returned,Shopify
+214,79,2025-11-29,Delivered,TikTok Shop
+215,26,2026-03-26,Delivered,TikTok Shop
+216,87,2026-01-31,Delivered,Walmart Marketplace
+217,88,2025-12-24,Delivered,TikTok Shop
+218,31,2026-01-04,Delivered,Walmart Marketplace
+219,19,2026-04-15,Delivered,Shopify
+220,98,2025-12-19,Delivered,Amazon
+221,91,2026-04-24,Delivered,TikTok Shop
+222,76,2026-03-11,Shipped,Walmart Marketplace
+223,91,2026-04-15,Delivered,Walmart Marketplace
+224,60,2025-11-13,Returned,TikTok Shop
+225,44,2025-11-23,Delivered,eBay
+226,85,2025-10-16,Delivered,Shopify
+227,56,2026-04-02,Delivered,TikTok Shop
+228,20,2025-12-13,Delivered,Amazon
+229,59,2026-02-08,Delivered,Walmart Marketplace
+230,11,2026-02-11,Delivered,eBay
+231,77,2026-04-10,Cancelled,TikTok Shop
+232,10,2026-04-19,Delivered,TikTok Shop
+233,20,2026-02-04,Returned,Walmart Marketplace
+234,56,2025-10-04,Delivered,TikTok Shop
+235,2,2026-03-22,Delivered,Shopify
+236,77,2026-03-18,Shipped,Amazon
+237,85,2025-10-20,Delivered,Walmart Marketplace
+238,92,2025-12-06,Delivered,Shopify
+239,43,2026-01-09,Delivered,eBay
+240,23,2026-02-19,Delivered,Shopify
+241,9,2026-04-21,Shipped,eBay
+242,5,2026-04-07,Delivered,Amazon
+243,14,2025-10-30,Shipped,Walmart Marketplace
+244,22,2026-03-28,Delivered,TikTok Shop
+245,82,2025-12-09,Delivered,eBay
+246,20,2026-03-25,Delivered,Walmart Marketplace
+247,63,2026-02-09,Delivered,Shopify
+248,75,2026-02-02,Delivered,Shopify
+249,60,2026-01-26,Delivered,Walmart Marketplace
+250,29,2026-03-01,Delivered,Amazon
+251,11,2026-02-20,Processing,Shopify
+252,99,2025-11-05,Delivered,Walmart Marketplace
+253,15,2026-01-07,Delivered,TikTok Shop
+254,65,2026-02-12,Delivered,Shopify
+255,9,2025-10-06,Delivered,Amazon
+256,7,2025-11-07,Delivered,TikTok Shop
+257,16,2025-10-07,Delivered,Walmart Marketplace
+258,18,2026-03-23,Delivered,eBay
+259,41,2026-03-04,Delivered,eBay
+260,72,2025-10-23,Cancelled,Amazon
+261,77,2025-10-23,Delivered,Amazon
+262,39,2026-02-27,Delivered,TikTok Shop
+263,61,2026-03-27,Delivered,Shopify
+264,46,2026-04-29,Delivered,Amazon
+265,40,2026-03-26,Delivered,TikTok Shop
+266,39,2026-03-20,Cancelled,Shopify
+267,27,2026-02-28,Delivered,Amazon
+268,69,2025-10-02,Delivered,Shopify
+269,95,2025-12-19,Delivered,Walmart Marketplace
+270,55,2026-04-04,Delivered,Walmart Marketplace
+271,85,2026-04-11,Returned,eBay
+272,92,2026-01-08,Returned,Walmart Marketplace
+273,76,2026-01-05,Processing,eBay
+274,13,2026-01-18,Delivered,TikTok Shop
+275,50,2025-12-22,Delivered,eBay
+276,73,2026-04-24,Delivered,eBay
+277,69,2026-04-26,Returned,eBay
+278,15,2025-11-08,Delivered,Amazon
+279,11,2025-12-20,Delivered,eBay
+280,12,2025-11-30,Delivered,eBay
+281,19,2026-01-01,Cancelled,Walmart Marketplace
+282,89,2026-04-20,Delivered,Amazon
+283,13,2026-04-30,Processing,Amazon
+284,57,2026-04-21,Delivered,Amazon
+285,3,2026-02-20,Shipped,eBay
+286,68,2026-01-20,Processing,Walmart Marketplace
+287,87,2025-11-18,Delivered,Walmart Marketplace
+288,46,2026-03-05,Processing,eBay
+289,72,2025-10-11,Delivered,eBay
+290,22,2025-12-20,Returned,Walmart Marketplace
+291,15,2026-04-03,Delivered,Amazon
+292,88,2026-03-24,Delivered,Shopify
+293,8,2026-04-09,Delivered,Shopify
+294,73,2026-03-03,Delivered,Walmart Marketplace
+295,66,2026-01-17,Delivered,Walmart Marketplace
+296,78,2025-12-06,Delivered,Shopify
+297,84,2025-11-07,Delivered,Amazon
+298,8,2026-02-13,Delivered,Shopify
+299,96,2025-10-23,Delivered,Walmart Marketplace
+300,65,2025-10-09,Delivered,Shopify
