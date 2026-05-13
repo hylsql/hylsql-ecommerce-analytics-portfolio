@@ -40,11 +40,11 @@ Analyzed shipping costs and freight as a percentage of revenue.
 
 ## Repository Structure
 ecommerce-analytics-portfolio/
-├── project1_revenue_margin/
-├── project2_inventory_optimization/
-├── project3_returns_analysis/
-├── project4_ad_spend_roas/
-├── project5_freight_analysis/
+- project1_revenue_margin/
+- project2_inventory_optimization/
+- project3_returns_analysis/
+- project4_ad_spend_roas/
+- project5_freight_analysis/
 
 ## Contact
 - LinkedIn: https://www.linkedin.com/in/hanyang-li-267004127/
