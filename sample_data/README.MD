@@ -7,10 +7,12 @@
 5. Explore the SQL projects.
 
 
-Fake E-commerce Dataset for SQL Practice
+Fake E-commerce Dataset for SQL Practice.
+
 This project contains realistic e-commerce data for practicing SQL step by step.
 
-Files
+Files.
+
 customers.csv: 100 customers
 products.csv: 51 products/SKUs
 orders.csv: 300 orders
