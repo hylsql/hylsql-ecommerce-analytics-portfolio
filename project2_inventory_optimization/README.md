@@ -14,7 +14,7 @@
 - Inventory units by warehouse
 - Inventory value by warehouse
 - Inventory value by category
-- Units sold by SKU
+- Units sold by SKU (Definition: products with inventory on hand but fewer than 10 units sold)
 - SKUs with inventory but no sales
 - Slow-moving SKUs
 - Inventory turnover by SKU
