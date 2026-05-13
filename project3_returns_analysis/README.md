@@ -19,8 +19,8 @@ Analyze product returns, refund exposure, and return rates by SKU, category, cus
 - Return Count
 
 ## SQL Skills Demonstrated
-- JOIN and LEFT JOIN
-- GROUP BY and HAVING
+- JOIN
+- GROUP BY
 - CTEs
 - Date Analysis with DATE_TRUNC
 - COALESCE and NULLIF
