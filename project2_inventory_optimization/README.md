@@ -10,7 +10,7 @@
 - products
 - order_items
 
-## Key Metrics:
+## Key Metrics
 - Quantity on Hand (QOH)
 - Inventory Value
 - Units Sold
