@@ -20,5 +20,5 @@ orders, order_items, products
 
 ## Key Findings
 - Toys generated the highest revenue.
-- Toys had the highest gross margin percentage.
+- Electronics had the highest gross margin percentage.
 - Amazon delivered strong sales but lower margins.
