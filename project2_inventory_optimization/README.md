@@ -18,7 +18,7 @@
 - SKUs with inventory but no sales
 - Slow-moving SKUs (products with inventory on hand but fewer than 10 units sold)
 - Inventory turnover by SKU (Turnover = Units Sold / Inventory Units)
-- Days on Hand
+- Days on Hand (Days on Hand = 365 / Inventory Turnover)
 - Top 20 SKUs by inventory value
 - Category-level turnover analysis
 
