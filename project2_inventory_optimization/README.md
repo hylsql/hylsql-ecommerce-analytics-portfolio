@@ -16,8 +16,8 @@
 - Inventory value by category
 - Units sold by SKU
 - SKUs with inventory but no sales
-- Slow-moving SKUs (Definition: products with inventory on hand but fewer than 10 units sold)
-- Inventory turnover by SKU 
+- Slow-moving SKUs (products with inventory on hand but fewer than 10 units sold)
+- Inventory turnover by SKU (Turnover = Units Sold / Inventory Units)
 - Days on Hand
 - Top 20 SKUs by inventory value
 - Category-level turnover analysis
