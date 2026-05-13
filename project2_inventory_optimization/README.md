@@ -11,12 +11,16 @@
 - order_items
 
 ## Key Metrics
-- Quantity on Hand (QOH)
-- Inventory Value
-- Units Sold
-- Inventory Turnover
+- Inventory units by warehouse
+- Inventory value by warehouse
+- Inventory value by category
+- Units sold by SKU
+- SKUs with inventory but no sales
+- Slow-moving SKUs
+- Inventory turnover by SKU
 - Days on Hand
-- Slow-Moving SKUs
+- Top 20 SKUs by inventory value
+- Category-level turnover analysis
 
 ## SQL Skills Demonstrated
 - JOIN
