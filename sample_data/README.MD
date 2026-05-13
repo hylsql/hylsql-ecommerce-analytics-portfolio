@@ -7,20 +7,15 @@
 5. Explore the SQL projects.
 
 
-Fake E-commerce Dataset for SQL Practice.
-
-This project contains realistic e-commerce data for practicing SQL step by step.
-
-Files.
-
-customers.csv: 100 customers
-products.csv: 51 products/SKUs
-orders.csv: 300 orders
-order_items.csv: 899 order lines
-payments.csv: 287 payments
-shipments.csv: 261 shipments
-returns.csv: 114 returns
-inventory.csv: 255 inventory by warehouse
-ad_spend.csv: 800 advertising spend rows
-schema.sql: table creation script
-load_postgres.sql: PostgreSQL import template
+Files:
+customers.csv: 100 customers.
+products.csv: 51 products/SKUs.
+orders.csv: 300 orders.
+order_items.csv: 899 order lines.
+payments.csv: 287 payments.
+shipments.csv: 261 shipments.
+returns.csv: 114 returns.
+inventory.csv: 255 inventory by warehouse.
+ad_spend.csv: 800 advertising spend rows.
+schema.sql: table creation script.
+load_postgres.sql: PostgreSQL import template.
