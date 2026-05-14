@@ -34,11 +34,8 @@ Analyze shipping and freight costs by carrier, warehouse, and sales channel to e
 8. Highest-Cost Shipments Table
 
 ## Key Findings
-- Freight costs were concentrated among a small number of carriers.
-- Average shipping cost varied significantly by carrier, indicating opportunities for contract optimization.
 - Freight as a percentage of revenue fluctuated over time and increased during certain periods.
 - Some channels carried higher shipping costs relative to revenue.
-- A small number of orders accounted for disproportionately high shipping expenses.
 
 ## Recommendations
 1. Review carrier contracts and negotiate rates with high-cost providers.
