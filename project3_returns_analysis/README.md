@@ -8,10 +8,9 @@ Analyze product returns, refund exposure, and return rates by SKU, category, cus
 - order_items
 - orders
 - products
-- customers
 
 ## Key Metrics
-- Units Sold
+- Total refund amount
 - Units Returned
 - Return Rate = Units Returned / Units Sold
 - Refund Amount
@@ -36,7 +35,6 @@ Analyze product returns, refund exposure, and return rates by SKU, category, cus
 8. High-Return SKU Table
 
 ## Key Findings
-- Refunds were concentrated in a small number of products and return reasons.
 - Certain categories had significantly higher return rates, indicating potential product quality or listing issues.
 - Several SKUs had both meaningful sales volume and elevated return rates, making them strong candidates for review.
 - Return rates varied by sales channel, suggesting differences in customer behavior and marketplace expectations.
