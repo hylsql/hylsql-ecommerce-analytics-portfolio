@@ -4,7 +4,9 @@
 Analyze revenue and profitability by SKU, category, and sales channel.
 
 ## Tables Used
-orders, order_items, products
+- orders
+- order_items
+- products
 
 ## Key Metrics
 - Revenue
