@@ -38,11 +38,9 @@ Analyze advertising spend and marketing effectiveness by sales channel to measur
 - Some channels generated strong revenue with relatively low ad spend, resulting in higher ROAS.
 - Other channels had increasing spend without proportional revenue growth.
 - Monthly ROAS trends highlighted changes in marketing efficiency over time.
-- A small number of channels drove the majority of advertising returns.
 
 ## Recommendations
 1. Increase investment in channels with consistently high ROAS.
 2. Review underperforming channels and optimize campaigns or reduce spend.
 3. Monitor ROAS monthly to identify trends and adjust budgets quickly.
 4. Evaluate advertising cost as a percentage of revenue to improve profitability.
-5. Combine ROAS analysis with gross margin to assess true marketing profitability.
