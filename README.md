@@ -1,6 +1,6 @@
 # E-commerce Analytics Portfolio
 
-SQL and data analytics portfolio focused on e-commerce, accounting, and supply chain performance. This portfolio demonstrates practical business analysis using PostgreSQL, Tableau, and Excel.
+SQL and data analytics portfolio focused on e-commerce, accounting, and supply chain performance. This portfolio demonstrates practical business analysis using PostgreSQL, Power BI, and Excel.
 
 ## About Me
 
@@ -10,7 +10,7 @@ Analytical and detail-oriented professional with 5+ years of experience in e-com
 ## Tools Used
 - PostgreSQL
 - pgAdmin 4
-- Tableau
+- Power BI
 - Excel
 - GitHub
 
