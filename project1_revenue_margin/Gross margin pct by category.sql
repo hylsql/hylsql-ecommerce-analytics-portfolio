@@ -3,9 +3,9 @@
 WITH margin AS(
 	SELECT	p.category,
 			SUM(oi.unit_price * oi.quantity - oi.discount_amount) AS revenue,
-			SUM(p.standard_cost) AS cost
+			SUM(p.standard_cost * oi.quantity) AS cost
 FROM products p
-JOIN order_items oi ON p.product_id = oi.order_item_id
+JOIN order_items oi ON p.product_id = oi.product_id
 GROUP BY p.category
 )
 SELECT	category,
