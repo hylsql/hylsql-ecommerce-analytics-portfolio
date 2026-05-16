@@ -1,12 +1,23 @@
 /* Freight % of revenue by order */
 
+WITH order_revenue AS (
+    SELECT	order_id,
+			SUM(quantity * unit_price - discount_amount) AS revenue
+    FROM order_items
+    GROUP BY order_id
+),
+order_freight AS (
+    SELECT	order_id,
+			SUM(freight_cost) AS freight_cost
+    FROM shipments
+    GROUP BY order_id
+)
 SELECT	o.order_id,
-		SUM(s.freight_cost) AS shipping_cost,
-		SUM(oi.unit_price * oi.quantity - oi.discount_amount) AS revenue,
-		SUM(s.freight_cost) * 100.0
-		/ NULLIF(SUM(oi.unit_price * oi.quantity - oi.discount_amount),0) AS shipping_pct
+		o.sales_channel,
+		COALESCE(f.freight_cost, 0) AS freight_cost,
+		r.revenue,
+		COALESCE(f.freight_cost, 0) / NULLIF(r.revenue, 0) AS freight_pct
 FROM orders o
-JOIN order_items oi ON o.order_id = oi.order_id
-JOIN shipments s ON s.order_id = o.order_id
-GROUP BY o.order_id
-ORDER BY shipping_pct DESC;
+JOIN order_revenue r ON o.order_id = r.order_id
+LEFT JOIN order_freight f ON o.order_id = f.order_id
+ORDER BY freight_pct DESC;
