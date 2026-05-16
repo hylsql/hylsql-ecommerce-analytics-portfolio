@@ -1,4 +1,4 @@
-/* Running monthly revenue by month */
+/* Running monthly revenue */
 
 WITH monthly AS(
 	SELECT	DATE_TRUNC('month', o.order_Date) AS month,
