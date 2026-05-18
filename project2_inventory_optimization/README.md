@@ -30,4 +30,7 @@
 ## Key Findings
 - Focus inventory investment on categories with higher turnover.
 - Monitor high-value SKUs more closely to minimize excess working capital.
+- Review slow-moving SKUs and reduce future purchase quantities.
+- Investigate no-sale inventory for potential liquidation, promotion, or discontinuation.
+- Use inventory turnover and days on hand to guide purchasing decisions by category.
 
