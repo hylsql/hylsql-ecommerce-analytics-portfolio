@@ -15,10 +15,10 @@ inventory_summary AS(
 SELECT	p.sku,
 		p.product_name,
 		p.category,
-		COALESCE(s.units_sold,0) AS units_sold,
-		COALESCE(i.inventory_units,0) AS inventory_units,
-		COALESCE(s.units_sold,0)::numeric /
-		NULLIF(COALESCE(i.inventory_units,0),0) AS inventory_turnover
+		COALESCE(s.units_sold, 0) AS units_sold,
+		COALESCE(i.inventory_units, 0) AS inventory_units,
+		COALESCE(s.units_sold, 0)::numeric /
+		NULLIF(COALESCE(i.inventory_units, 0), 0) AS inventory_turnover
 FROM products p
 LEFT JOIN inventory_summary i ON i.product_id = p.product_id
 LEFT JOIN sales s ON s.product_id = p.product_id
