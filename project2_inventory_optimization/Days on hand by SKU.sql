@@ -1,24 +1,29 @@
 /* Days on hand by SKU */
 
-WITH sku_turnover AS(
-		SELECT	p.sku,
+WITH sales AS(
+	SELECT	product_id,
+			SUM(quantity) AS units_sold
+	FROM order_items
+	GROUP BY product_id
+),
+inventory_summary AS(
+	SELECT	product_id,
+			SUM(quantity_on_hand) AS inventory_units
+	FROM inventory
+	GROUP BY product_id
+)
+SELECT	p.sku,
 		p.product_name,
 		p.category,
-		SUM(i.quantity_on_hand) AS inventory_units,
-		COALESCE(SUM(oi.quantity)) AS units_sold,
-		COALESCE(SUM(oi.quantity))::numeric
-		/ NULLIF(SUM(i.quantity_on_hand),0) AS inventory_turnover
+		COALESCE(s.units_sold,0) AS units_sold,
+		COALESCE(i.inventory_units,0) AS inventory_units,
+		COALESCE(s.units_sold,0)::numeric /
+		NULLIF(COALESCE(i.inventory_units,0),0) AS inventory_turnover,
+		365 / NULLIF(COALESCE(s.units_sold,0)::numeric /NULLIF(COALESCE(i.inventory_units,0),0),0) AS days_on_hand
 FROM products p
-LEFT JOIN order_items oi ON p.product_id = oi.product_id
-LEFT JOIN inventory i ON p.product_id = i.product_id
-GROUP BY p.sku, p.product_name, p.category
-)
-SELECT	sku,
-		product_name,
-		category,
-		inventory_units,
-		units_sold,
-		inventory_turnover,
-		365 / NULLIF(inventory_turnover,0) AS days_on_hand
-FROM sku_turnover
-ORDER BY days_on_hand DESC NULLS LAST;
+LEFT JOIN inventory_summary i ON i.product_id = p.product_id
+LEFT JOIN sales s ON s.product_id = p.product_id
+ORDER BY days_on_hand DESC;
+
+
+		
