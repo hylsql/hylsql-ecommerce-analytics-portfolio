@@ -1,14 +1,25 @@
 /* Slow-moving SKUs */
 
+WITH sales AS(
+	SELECT	product_id,
+			SUM(quantity) AS units_sold
+	FROM order_items
+	GROUP BY product_id
+),
+inventory_summary AS(
+	SELECT	product_id,
+			SUM(quantity_on_hand) AS inventory_units
+	FROM inventory
+	GROUP BY product_id
+)
 SELECT	p.sku,
 		p.product_name,
 		p.category,
-		SUM(i.quantity_on_hand) AS inventory_units,
-		COALESCE(SUM(oi.quantity)) AS units_sold
+		COALESCE(s.units_sold,0) AS units_sold,
+		COALESCE(i.inventory_units,0) AS inventory_units,
+		COALESCE(i.inventory_units,0) * p.standard_cost AS inventory_value
 FROM products p
-LEFT JOIN order_items oi ON p.product_id = oi.product_id
-JOIN inventory i ON p.product_id = i.product_id
-GROUP BY p.sku, p.product_name, p.category
-HAVING SUM(i.quantity_on_hand) > 0 AND COALESCE(SUM(oi.quantity)) < 10
-ORDER BY inventory_units DESC;
-
+LEFT JOIN inventory_summary i ON i.product_id = p.product_id
+LEFT JOIN sales s ON s.product_id = p.product_id
+WHERE COALESCE(i.inventory_units,0) > 10 AND COALESCE(s.units_sold,0) < 10
+ORDER BY inventory_value DESC;
